@@ -1,9 +1,10 @@
 function klasesTehnika1() {
     let kabinetaNr=14;
     let datoruSkaits=0;
+   
     for(i=0;i<datoruDB.length;i++){
         razotajs=datoruDB[i][razotajs];
-        if razotajs="HP"
+        if (razotajs="HP")
         {
             datoruSkaits++;
         }
