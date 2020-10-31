@@ -14,7 +14,6 @@ function klasesTehnika1() {
     rindas.innerHTML += `
 <tr>
 <td>${kabinetaNr}</td>
-<td>${' - '}</td>
 <td>${datoruSkaits}</td>
 </tr>`;
   
