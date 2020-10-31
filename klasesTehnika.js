@@ -9,6 +9,7 @@ function klasesTehnika1() {
             datoruSkaits++;
         }
     }
+    console.log(datoruSkaits);
 
     rindas.innerHTML += `
 <tr>
@@ -16,5 +17,5 @@ function klasesTehnika1() {
 <td>${' - '}</td>
 <td>${datoruSkaits}</td>
 </tr>`;
-   
+  
     }
